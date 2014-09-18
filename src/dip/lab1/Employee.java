@@ -7,7 +7,7 @@ package dip.lab1;
  *
  * @author your name goes here
  */
-public class Employee {
+public interface Employee {
     // You gotta question if these are appropriate for ALL employees?
     private double hourlyRate;
     private double totalHrsForYear;

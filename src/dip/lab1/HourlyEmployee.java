@@ -6,7 +6,9 @@ package dip.lab1;
  *
  * @author your name goes here
  */
-public class HourlyEmployee extends Employee {
+public class HourlyEmployee implements Employee {
+    private double hourlyRate;
+    private double totalHrsForYear;
     
     /** default constructor. Is this the best way to go? */
     public HourlyEmployee() {}
@@ -17,8 +19,12 @@ public class HourlyEmployee extends Employee {
      * @param totalHrsForYear - total hours worked or predicted per year
      */
     public HourlyEmployee(double hourlyRate, double totalHrsForYear) {
-        setHourlyRate(hourlyRate);
-        setTotalHrsForYear(totalHrsForYear);
+        this.hourlyRate = hourlyRate;
+        this.totalHrsForYear = totalHrsForYear;
     }
-
+    
+    @Override
+    
+    
+    
 }
