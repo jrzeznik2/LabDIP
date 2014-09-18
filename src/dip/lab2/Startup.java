@@ -25,7 +25,7 @@ public class Startup {
  
     public static void main(String[] args) {
         
-        
+        TipCalculator calc = new TipCalculator(new FoodServiceTipCalculator(ServiceQuality.GOOD, 50.48));
     }
 
 }

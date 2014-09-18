@@ -12,6 +12,7 @@ package dip.lab2;
 public class TipCalculator {
     private ServiceTipCalculator tip;
     
+    
     public TipCalculator(ServiceTipCalculator tip){
         this.tip = tip;
     }
